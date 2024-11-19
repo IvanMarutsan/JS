@@ -1,0 +1,39 @@
+/*Practiced Objects in JavaScript by creating a data structure to maintain and manipulate sports stats!
+
+const team = {
+  _players: [
+    { firstName: "Ivan", lastName: "Marutsan", age: 26 },
+    { firstName: "Mykola", lastName: "Korkoza", age: 27 },
+    { firstName: "Pavlo", lastName: "Holynskii", age: 25 },
+  ],
+  _games: [
+    { opponent: "Verbivci", teamPoints: 12, opponentPoints: 3 },
+    { opponent: "Soroku", teamPoints: 11, opponentPoints: 5 },
+    { opponent: "Vikno", teamPoints: 10, opponentPoints: 7 },
+  ],
+  get players() {
+    return this._players;
+  },
+  get games() {
+    return this._games;
+  },
+  addPlayer(newFirstName, newLastName, newAge) {
+    let player = {
+      firstName: newFirstName,
+      lastName: newLastName,
+      age: newAge,
+    };
+    this._players.push(player);
+  },
+  addGame(newOpponent, newTeamPoints, newOpponentPoints) {
+    let game = {
+      opponent: newOpponent,
+      teamPoints: newTeamPoints,
+      opponentPoints: newOpponentPoints,
+    };
+    this._games.push(game);
+  },
+};
+team.addGame("Titans", 100, 98);
+team.addPlayer("Bugs", "Bunny", 76);
+console.log(team._games);
