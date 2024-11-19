@@ -1,0 +1,14 @@
+//This is Kelvin
+let kelvin = 0;
+
+//This is Celsius
+let celsius = kelvin-273;
+
+//This is Fahrenheit
+let fahrenheit = celsius *(9/5)+32;
+
+//Round down the Fahrenheit temperature
+fahrenheit = Math.floor(fahrenheit);
+
+//The temperature in Fahrenheit
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
