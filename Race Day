@@ -1,4 +1,6 @@
-/*I have written a program that registers runners for the race and gives them instructions on race day.
+/*Designed the logic for an app that gives runners information on race day!
+
+The program registers runners for the race and gives them instructions on race day.
 Here’s how our registration works. 
 There are adult runners (over 18 years of age) and youth runners (under 18 years of age). 
 They can register early or late. 
